@@ -1,0 +1,237 @@
+@font-face {
+    font-family: TensAesth;
+    src: url('TensuraAesthetic-Regular.ttf');
+}
+
+.cardinal-alph {
+    font-family: TensAesth;
+}
+
+.normal-alph {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+/*******************/
+
+.hoverable:hover {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.white-text {
+    color: white;
+}
+
+.centered {
+    text-align: center;
+}
+
+.right {
+    right: 0;
+}
+
+.left {
+    left: 0;
+}
+
+.content-container {
+    height: 95vh;
+    padding: 6px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url(rnw-omc-rimuru.jpg);
+    background-position: center 20%;
+    background-repeat: no-repeat;
+    background-size: auto 160vh;
+}
+
+.main-text {
+    display: block;
+    height: 50px;
+}
+
+.descriptor {
+    display: block;
+    height: 34px;
+    font-size: 32px;
+}
+
+/*******************/
+
+.timer {
+    font-size: 108px; 
+    text-align: center;
+}
+
+.time-descriptor {
+    display: inline-flex;
+    position: relative;
+    height: 84px;
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.time-value {
+    font-size: 84px;
+    font-weight: bolder;
+}
+
+.value-name {
+    position: absolute;
+    padding-top: 88px;
+    font-size: 18px; 
+    width: inherit;
+    text-align: center;
+}
+
+.time-separator {
+    margin: 0;
+    padding: 0;
+    font-size: 108px;
+}
+
+/*******************/
+
+.menu-list {
+    text-align: center;
+    padding-top: 8vh;
+}
+
+.list-button {
+    text-decoration: none;
+    text-decoration-color: white;
+    
+    display: block;
+    position: relative;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 6px;
+    margin-bottom: 12px;
+    font-size: 28px;
+
+    height: 54px;
+    width: 800px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,0.6));
+}
+
+.list-button:hover {
+    background-image: linear-gradient(rgba(80, 80, 80, 0.6), rgba(80,80,80,0.6));
+}
+
+a.list-button:link, a.list-button:visited {
+    color: inherit;
+}
+
+.rounded {
+    border-radius: 50%;
+}
+
+.rounded-rect {
+    border-radius: 8px 8px 8px 8px;
+}
+
+.icon-left {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*******************/
+
+.switch-container {
+    display: flex;
+    position: absolute;
+    width: 98vw;
+}
+
+.switch-button {
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    width: 48%;
+
+    height: 20px;
+    margin-right: 0.8%;
+    margin-left: 0.8%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.active {
+    background-image: linear-gradient(rgba(80, 80, 80, 0.6), rgba(80,80,80,0.6));
+}
+
+.inactive {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,0.6));
+}
+
+/*******************/
+
+@media screen and (max-width: 840px) {
+    .content-container {
+        height: 105vh;
+        padding: 4px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url(rnw-omc-rimuru.jpg);
+        background-position: center 20%;
+        background-repeat: no-repeat;
+        background-size: auto 160vh;
+    }
+
+    .main-text {
+        display: block;
+        height: auto;
+    }
+
+    .descriptor {
+        display: block;
+        height: 34px;
+        font-size: 32px;
+    }
+
+    .list-button {
+        display: block;
+        position: relative;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 16px;
+        padding-left: 20px;
+        padding-top: 16px;
+        padding-bottom: 20px;
+        margin-bottom: 12px;
+    
+        height: auto;
+        width: 80vw;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,0.6));
+    }
+
+    .switch-container {
+        display: flex;
+        position: absolute;
+        width: 96vw;
+    }
+
+    .switch-button {
+        display: inline-block;
+        position: absolute;
+        text-align: center;
+        width: 48%;
+    
+        height: 20px;
+        margin-top: 0;
+        margin-right: 1%;
+        margin-left: 1%;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+}
