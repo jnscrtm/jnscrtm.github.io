@@ -104,7 +104,7 @@ var x = setInterval(function() {
             time_elem.style.opacity = 0;
             time_elem.style.animationDuration = "3000ms";
             time_elem.style.fontWeight = "bolder";
-            time_elem.innerHTML = '<a class="hoverable">HIATUS HAS ENDED</a>';
+            time_elem.innerHTML = '<a>HIATUS HAS ENDED</a>';
             time_elem.setAttribute("class", "timer anim-fade-in-out");
 
             clearInterval(x);
@@ -115,7 +115,7 @@ var x = setInterval(function() {
                 document.getElementById("action-list").style.animationDuration = "800ms";
                 document.getElementById("action-list").style.opacity = 1;
                 document.getElementById("action-list").style.display = "block";
-            }, 3500);
+            }, 3000);
         }
     }
 }, 1000);
