@@ -1,6 +1,6 @@
 @font-face {
     font-family: TensAesth;
-    src: url('TensuraAesthetic-Regular.ttf');
+    src: url('TensuraAesthetic-Regular.ttf'), url('TensuraAesthetic-Regular.otf');
 }
 
 .cardinal-alph {
