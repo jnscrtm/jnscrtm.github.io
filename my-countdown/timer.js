@@ -44,7 +44,7 @@ function activate_cardinal()
     cardinal_is_active = true;
 }
 
-let countDownDate_UTC = new Date("May 1, 2022 14:00:00").getTime();
+let countDownDate_UTC = new Date("May 14, 2022 14:00:00").getTime();
 let countDownDate_Locale = countDownDate_UTC - new Date().getTimezoneOffset() * 60 * 1000;
 var timer_is_set = false;
 
@@ -104,7 +104,7 @@ var x = setInterval(function() {
             time_elem.style.opacity = 0;
             time_elem.style.animationDuration = "3000ms";
             time_elem.style.fontWeight = "bolder";
-            time_elem.innerHTML = '<a>HIATUS HAS ENDED</a>';
+            time_elem.innerHTML = '<a>THE CHAPTER HAS BEEN UPLOADED</a>';
             time_elem.setAttribute("class", "timer anim-fade-in-out");
 
             clearInterval(x);
